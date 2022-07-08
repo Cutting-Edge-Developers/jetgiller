@@ -54,3 +54,172 @@ table {
 
 
 /* Ufuk */
+.container 
+{
+	display:flex;
+	justify-content:space-evenly;
+	background-color:#f1f2f6;
+	align-items: center;
+	padding: 25px;
+}
+form 
+{
+	background-color: #ff6348;
+	background-size: cover;
+	margin: 15px;
+	padding:35px;
+	width: 80%;
+	height: 100%;
+	border-radius: 10px;
+	width: 100%;
+}
+form input 
+{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	text-align: center;
+	justify-content: center;
+	width: 85%
+}
+select 
+{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	text-align: center;
+	width: 90%
+}
+button 
+{
+	background-color: black;
+	color: white;
+	border-radius: 10px ;
+	padding: 25px;
+	margin: 5px;
+	width: 100%;
+	cursor: pointer;
+}
+
+header .baslik 
+{
+	font-family: sans-serif;
+	font-size: x-large;
+	color:rgba(0, 148, 50,1.0);
+	margin-left: 50px;
+    margin-bottom: 15px;
+}
+header .baslik1 
+{
+	font-family: sans-serif;
+	font-size: xx-large;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	
+}
+header .baslik2 
+{
+	font-family: sans-serif;
+	font-size: xx-large;
+	color: #ff6348;
+	
+}
+.txt1 
+{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #57606f;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+.card 
+{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bolder;
+	margin-left: 50px;
+}
+.card .hdr
+{
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	
+}
+.card .text 
+{
+	margin-bottom: 20px;
+	color: #57606f;
+	font-size: medium;
+	
+}
+.container2 
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding: 25px;
+
+}
+.about 
+{
+	color: #20bf6b;
+	font-family: sans-serif;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+.board 
+{
+	color: #20bf6b;
+	font-family: sans-serif;
+	font-size: 4em;
+	margin-bottom: 15px;
+}
+.care 
+{
+	color: #ff6348;
+	font-family: sans-serif;
+}
+.ddd 
+{
+	color: black;
+}
+.textInfo 
+{
+	color: #57606f;
+	font-family: sans-serif;
+	font-weight: 1.5em;
+	margin-bottom: 40px;
+}
+ul 
+{
+ padding-bottom: 15px;
+}
+ul li 
+{
+	letter-spacing: 1.5px;
+}
+.LearnMore
+{
+	width: 20%;
+	background-color: #ff6348;
+	border: none;
+	outline: none;
+	font-family: sans-serif;
+	font-size: larger ;
+    padding: 15px;
+	cursor: pointer;
+	transition: .6s ease-in;
+}
+
+.LearnMore:hover 
+{
+	background-color: black;
+	opacity: 0.5;
+}
