@@ -54,7 +54,7 @@ table {
 
 
 /* Ufuk */
-.container 
+.Kapsel
 {
 	display:flex;
 	justify-content:space-evenly;
@@ -94,7 +94,7 @@ select
 	text-align: center;
 	width: 90%
 }
-button 
+.btn1
 {
 	background-color: black;
 	color: white;
@@ -113,7 +113,7 @@ header .baslik
 	margin-left: 50px;
     margin-bottom: 15px;
 }
-header .baslik1 
+.baslik1 
 {
 	font-family: sans-serif;
 	font-size: xx-large;
@@ -121,7 +121,7 @@ header .baslik1
 	margin-bottom: 25px;
 	
 }
-header .baslik2 
+.baslik2 
 {
 	font-family: sans-serif;
 	font-size: xx-large;
@@ -137,7 +137,7 @@ header .baslik2
 	margin-bottom: 20px;
 	margin-left: 50px;
 }
-.card 
+.Karte
 {
 	display:flex;
 	flex-wrap: wrap;
@@ -146,20 +146,20 @@ header .baslik2
 	font-weight: bolder;
 	margin-left: 50px;
 }
-.card .hdr
+.Karte .heaDers
 {
 	margin-bottom: 10px;
 	letter-spacing: 2px;
 	
 }
-.card .text 
+.Karte .text 
 {
 	margin-bottom: 20px;
 	color: #57606f;
 	font-size: medium;
 	
 }
-.container2 
+.Kapsel2 
 {
 	display:flex;
 	justify-content:center;
@@ -167,7 +167,7 @@ header .baslik2
 	padding: 25px;
 
 }
-.about 
+.about-us 
 {
 	color: #20bf6b;
 	font-family: sans-serif;
@@ -186,7 +186,7 @@ header .baslik2
 	color: #ff6348;
 	font-family: sans-serif;
 }
-.ddd 
+.logogram 
 {
 	color: black;
 }
