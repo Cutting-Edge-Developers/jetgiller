@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
+    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
     <title>Jetgiller Proje 1</title>
   </head>
   <body>
@@ -471,6 +477,58 @@
     
 
     <!-- Berkan -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Price</a></li>
+          <li><a href="#">Booking</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <button class="navButton">Get Quote</button>
+      </nav>
+
+      <div class="header-carousel owl-carousel owl-theme">
+        <div class="first-carousel">
+          <img src="assets/img/carousel-1.jpg" />
+          <div class="slider-text">
+            <h3 style="font-size: 40px; margin-bottom: 20px">
+              Best Pet Services
+            </h3>
+            <h1 style="font-size: 70px; margin-bottom: 20px">
+              Keep Your Pet Happy
+            </h1>
+            <h4 style="font-size: 20px">
+              Duo nonumy et dolor tempor no et. Diam sit diam sit diam erat
+            </h4>
+
+            <button class="button1">Book Now</button>
+            <button class="button2">Learn More</button>
+          </div>
+        </div>
+        <div class="second-carousel">
+          <img src="assets/img/carousel-2.jpg" />
+          <div class="slider-text">
+            <h3 style="font-size: 40px; margin-bottom: 20px">
+              Best Pet Services
+            </h3>
+            <h1 style="font-size: 70px; margin-bottom: 20px">
+              Pet Spa & Grooming
+            </h1>
+            <h4 style="font-size: 20px">
+              Duo nonumy et dolor tempor no et. Diam sit diam sit diam erat
+            </h4>
+
+            <button class="button1">Book Now</button>
+            <button class="button2">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <!-- Evren -->
 
@@ -478,8 +536,8 @@
 
     <!-- Ufuk -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

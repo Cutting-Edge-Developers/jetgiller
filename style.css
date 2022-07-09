@@ -1,44 +1,7 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Batuhan */
@@ -525,14 +488,117 @@ table {
 /*Responsive end */
 
 
-
 /* Berkan */
+header {
+  height: 500px;
+}
+header nav {
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: 10fr 2fr;
+  height: 87px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 32px 25px;
+  transition: all 0.3s;
+}
+header nav ul li a:hover {
+  background-color: #ed6436;
+  color: black;
+}
 
+header nav .navButton {
+  justify-self: center;
+  padding: 15px 25px;
+  border-radius: 8px;
+  background-color: #ed6436;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  font-size: 20px;
+}
+
+header nav .navButton:hover {
+  background-color: #e84a15;
+}
+
+header .header-carousel .slider-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+header .header-carousel .slider-text .button1,
+.button2 {
+  padding: 15px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+header .header-carousel .slider-text .button1 {
+  background-color: #ed6436;
+  color: white;
+}
+header .header-carousel .slider-text .button1:hover {
+  background-color: #e84a15;
+}
+
+header .header-carousel .slider-text .button2 {
+  background-color: #65c178;
+  color: black;
+}
+
+header .header-carousel .slider-text .button2:hover {
+  background-color: #4f9f5e;
+  color: #fff;
+}
+
+header .header-carousel .owl-next {
+  position: absolute !important;
+  right: 250px !important;
+  top: 50% !important;
+  font-size: 30px !important;
+  color: white !important;
+  background-color: #ed6436 !important;
+}
+
+header .header-carousel .owl-next span {
+  padding: 10px !important;
+}
+
+header .header-carousel .owl-prev {
+  position: absolute !important;
+  left: 250px !important;
+  top: 50% !important;
+  font-size: 30px !important;
+  color: white !important;
+  background-color: #ed6436 !important;
+}
+
+header .header-carousel .owl-prev span {
+  padding: 10px !important;
+}
 
 /* Evren */
 
-
 /* Ruken */
-
 
 /* Ufuk */
