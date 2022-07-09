@@ -1,2 +1,1 @@
 # jetgiller 
-# yaşasın jetgiller
