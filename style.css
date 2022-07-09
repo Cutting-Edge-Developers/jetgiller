@@ -54,7 +54,7 @@ table {
 
 
 /* Ufuk */
-.Kapsel
+.kapsel
 {
 	display:flex;
 	justify-content:space-evenly;
@@ -62,7 +62,7 @@ table {
 	align-items: center;
 	padding: 25px;
 }
-.formEdit
+.formedit
 {
 	background-color: #ff6348;
 	background-size: cover;
@@ -73,7 +73,7 @@ table {
 	border-radius: 10px;
 	width: 100%;
 }
-.formEdit input
+.formedit input
 {
 	margin: 10px;
 	padding: 10px;
@@ -84,7 +84,7 @@ table {
 	justify-content: center;
 	width: 85%
 }
-select .Choose
+#choose
 {
 	margin: 10px;
 	padding: 10px;
@@ -94,7 +94,7 @@ select .Choose
 	text-align: center;
 	width: 90%
 }
-.btn1
+.btn_one
 {
 	background-color: black;
 	color: white;
@@ -105,7 +105,7 @@ select .Choose
 	cursor: pointer;
 }
 
-header .baslik 
+header .title_text
 {
 	font-family: sans-serif;
 	font-size: x-large;
@@ -113,7 +113,7 @@ header .baslik
 	margin-left: 50px;
     margin-bottom: 15px;
 }
-.baslik1 
+.title_text_one
 {
 	font-family: sans-serif;
 	font-size: xx-large;
@@ -121,7 +121,7 @@ header .baslik
 	margin-bottom: 25px;
 	
 }
-.baslik2 
+.title_text_two 
 {
 	font-family: sans-serif;
 	font-size: xx-large;
@@ -137,7 +137,7 @@ header .baslik
 	margin-bottom: 20px;
 	margin-left: 50px;
 }
-.Karte
+.karte
 {
 	display:flex;
 	flex-wrap: wrap;
@@ -146,20 +146,20 @@ header .baslik
 	font-weight: bolder;
 	margin-left: 50px;
 }
-.Karte .heaDers
+.karte .headers
 {
 	margin-bottom: 10px;
 	letter-spacing: 2px;
 	
 }
-.Karte .text 
+.karte .text 
 {
 	margin-bottom: 20px;
 	color: #57606f;
 	font-size: medium;
 	
 }
-.Kapsel2 
+.kapsel_two
 {
 	display:flex;
 	justify-content:center;
@@ -167,7 +167,7 @@ header .baslik
 	padding: 25px;
 
 }
-.about-us 
+.about_us 
 {
 	color: #20bf6b;
 	font-family: sans-serif;
@@ -190,22 +190,22 @@ header .baslik
 {
 	color: black;
 }
-.textInfo 
+.text_info
 {
 	color: #57606f;
 	font-family: sans-serif;
 	font-weight: 1.5em;
 	margin-bottom: 40px;
 }
-.listStyle
+.tabulation
 {
  padding-bottom: 15px;
 }
-.listStyle li 
+.tabulation li 
 {
 	letter-spacing: 1.5px;
 }
-.LearnMore
+.learn_more
 {
 	width: 20%;
 	background-color: #ff6348;
@@ -219,7 +219,7 @@ header .baslik
 	border-radius: 6px;
 }
 
-.LearnMore:hover 
+.learn_more:hover 
 {
 	background-color: black;
 	opacity: 0.5;
