@@ -49,6 +49,273 @@ table {
 
 /* Evren */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    bottom: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto' , sans-serif;
+}
+
+body {
+    font-size: 1.8rem;
+}
+
+.pricing-plan {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2F2F4;
+}
+
+.pricing-plan_container {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 6rem;
+}
+
+.pricing-card_content img {
+    padding: 0 .1rem .6rem .1rem;
+    width: 36rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,.8fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+    gap: 2rem;
+}
+
+.pricing-h4 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #65C178;
+    padding: 2rem;
+}
+
+.pricing-h1 {
+    font-weight: bold;
+    font-size: 6rem;
+    color: #181818;
+    padding: 2rem;
+}
+
+.pricing-h1 span {
+    color: #ED6436;
+}
+
+.pricing-card_content {
+    background-color: #fff;
+}
+
+.pricing-card_content p {
+    padding: 1.4rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+i {
+    padding: .4rem .8rem .4rem .4rem;
+}
+
+.fa-circle-check {
+    color: #65C178;
+}
+
+.fa-x {
+    color: #dc3545;
+}
+
+hr {
+    width: 100%;
+}
+
+.pricing-card_content button {
+    width: 100%;
+    background-color: #ED6436;
+    border: none;
+    height: 6rem;
+}
+
+.pricing-card_content .green-button {
+    background-color: #65C178 !important;
+    color: black !important;
+    font-size: 1.6rem !important;
+}
+
+.icon-button {
+    color:#fff;
+    font-size: 1.6rem;
+}
+
+.icon-button:hover {
+    background: rgb(232,74,21);
+    cursor: pointer;
+}
+
+.green-button:hover {
+    background-color: rgb(72,177,93) !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.pricing-card_content {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22.5rem;
+    width: 36rem;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.absolute-header__three {
+    color: rgb(237,100,54);
+    font-size: 3.2rem;
+    padding-bottom: 2rem;
+    opacity: 1 !important;
+}
+
+.absolute-header__one {
+    color: #fff;
+    font-size: 6rem;
+    width: max-content;
+    opacity: 1 !important;
+    font-weight: bold;
+}
+
+.green-absolute {
+    color: #65C178 !important;
+}
+
+.absolute-header__one small {
+    font-size: 22px; 
+    line-height: 45px;
+}
+
+
+/* team-member */
+
+.team-member {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container-team__member {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding: 6rem;
+}
+
+.img-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.team-member_card {
+    background-color: rgb(242,242,244);
+    height: 16rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.team-member_card h2 {
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.team-member_card h3 {
+    padding: 1rem;
+}
+
+.team-member_card h3 em {
+    font-style: italic;
+    color: #9f9d9f ;
+    font-weight: 200;
+}
+
+.img-wrapper img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.team-member_icon {
+    background-color: rgb(242,242,244);
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
+}
+
+.team-member_icon a {
+    margin-right: .6rem;
+}
+
+.team-member_icon i:hover {
+    color: rgb(9, 105, 110);
+    background-color: rgb(242, 242, 244);
+}
+
+.team-member_icon .fa-brands {
+    background-color: rgb(9, 105, 110);
+    color: rgb(242,242,244);
+    border: .2rem solid rgb(9, 105, 110);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.team-member_icon a:hover {
+    animation:slide 2s linear;
+    transform: scale(1.4);
+}
+
+@keyframes slide {
+    50% {
+        -webkit-transform: rotate(90deg); 
+        transform:rotate(90deg); 
+    }
+    75% {
+        -webkit-transform: rotate(0deg); 
+        transform:rotate(0deg); 
+        transform: scale(.5);
+    }
+    90% {
+        transform: scale(1.6); 
+    }
+
+    100% { 
+        -webkit-transform: rotate(-90deg); 
+        transform:rotate(-90deg);
+    } 
+}
 
 /* Ruken */
 
