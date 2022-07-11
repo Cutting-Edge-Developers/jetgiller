@@ -61,17 +61,21 @@ table {
 	background-color:#f1f2f6;
 	align-items: center;
 	padding: 25px;
+	position: relative;
 }
 .formedit
 {
+	position: absolute;
+	height: 90%;
 	background-color: #ff6348;
-	background-size: cover;
 	margin: 15px;
-	padding:35px;
-	width: 80%;
-	height: 100%;
-	border-radius: 10px;
-	width: 100%;
+	padding: 30px 0 30px 0;
+	border-radius: 5px;
+	width: 30%;
+	transform: translateX(-50%);
+	transform:translateY(-55%);
+	right: 60%;
+	
 }
 .formedit input
 {
@@ -81,8 +85,9 @@ table {
 	outline: none;
 	border: none;
 	text-align: center;
-	justify-content: center;
-	width: 85%
+	width: 60%;
+	justify-self: center;
+	transform:translateX(25%);
 }
 #choose
 {
@@ -92,7 +97,8 @@ table {
 	outline: none;
 	border: none;
 	text-align: center;
-	width: 90%
+	width: 65%;
+	transform:translateX(25%);
 }
 .btn_one
 {
@@ -101,11 +107,12 @@ table {
 	border-radius: 10px ;
 	padding: 25px;
 	margin: 5px;
-	width: 100%;
+	width: 70%;
 	cursor: pointer;
+	transform:translateX(23%);
 }
 
-header .title_text
+.title_group .title_text
 {
 	font-family: sans-serif;
 	font-size: x-large;
